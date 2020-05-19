@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MSSQL14@viplogics.com">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.18">
+    <root id="1">
+      <ServerVersion>12.0.4100</ServerVersion>
+    </root>
+    <database id="2" parent="1" name=".gsccp">
+      <ObjectId>9</ObjectId>
+    </database>
+    <database id="3" parent="1" name=".gsccps">
+      <ObjectId>10</ObjectId>
+    </database>
+    <database id="4" parent="1" name="CourseManagementDB">
+      <ObjectId>107</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="DB_b0656f">
+      <ObjectId>45</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="DevDesk">
+      <ObjectId>127</ObjectId>
+      <Current>1</Current>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Fingerprint>127.43697/94ECC036-A521-462B-A1EA-2D8E7AC4124A@WIN-N3EICO15VAO\MSSQLSERVER2014</Fingerprint>
+    </database>
+    <database id="7" parent="1" name="Good2Skin">
+      <ObjectId>104</ObjectId>
+    </database>
+    <database id="8" parent="1" name="INVENTORIA">
+      <ObjectId>7</ObjectId>
+    </database>
+    <database id="9" parent="1" name="InstawareEnterprise">
+      <ObjectId>15</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="10" parent="1" name="Instaware_CourseCenter">
+      <ObjectId>133</ObjectId>
+      <Collation>Latin1_General_CI_AS</Collation>
+    </database>
+    <database id="11" parent="1" name="MyActiveLifeVersion2">
+      <ObjectId>42</ObjectId>
+    </database>
+    <database id="12" parent="1" name="Register">
+      <ObjectId>52</ObjectId>
+    </database>
+    <database id="13" parent="1" name="SHIFT_MANAGMENT">
+      <ObjectId>66</ObjectId>
+    </database>
+    <database id="14" parent="1" name="TTPngWorkersDirectory">
+      <ObjectId>80</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="15" parent="1" name="TTWFBlog">
+      <ObjectId>6</ObjectId>
+    </database>
+    <database id="16" parent="1" name="TesteDB01">
+      <ObjectId>8</ObjectId>
+    </database>
+    <database id="17" parent="1" name="Theia">
+      <ObjectId>17</ObjectId>
+    </database>
+    <database id="18" parent="1" name="Vanguard">
+      <ObjectId>56</ObjectId>
+      <Collation>Latin1_General_CI_AS</Collation>
+    </database>
+    <database id="19" parent="1" name="VisualGolf">
+      <ObjectId>130</ObjectId>
+    </database>
+    <database id="20" parent="1" name="_DA_WMS">
+      <ObjectId>60</ObjectId>
+    </database>
+    <database id="21" parent="1" name="__DA_Auth">
+      <ObjectId>63</ObjectId>
+    </database>
+    <database id="22" parent="1" name="__DA_Captcha">
+      <ObjectId>78</ObjectId>
+    </database>
+    <database id="23" parent="1" name="__DA_LinC">
+      <ObjectId>14</ObjectId>
+    </database>
+    <database id="24" parent="1" name="__DA_PostOffice">
+      <ObjectId>74</ObjectId>
+    </database>
+    <database id="25" parent="1" name="__DA_SiteLK">
+      <ObjectId>54</ObjectId>
+    </database>
+    <database id="26" parent="1" name="__DA_SiteTK">
+      <ObjectId>59</ObjectId>
+    </database>
+    <database id="27" parent="1" name="alm_gestion">
+      <ObjectId>110</ObjectId>
+    </database>
+    <database id="28" parent="1" name="alm_haber">
+      <ObjectId>12</ObjectId>
+    </database>
+    <database id="29" parent="1" name="alm_haberDigital">
+      <ObjectId>88</ObjectId>
+    </database>
+    <database id="30" parent="1" name="alm_haber_dev">
+      <ObjectId>61</ObjectId>
+    </database>
+    <database id="31" parent="1" name="alm_mantequeria">
+      <ObjectId>20</ObjectId>
+    </database>
+    <database id="32" parent="1" name="ameritrade">
+      <ObjectId>129</ObjectId>
+    </database>
+    <database id="33" parent="1" name="artedol_Sql39193_1">
+      <ObjectId>69</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="34" parent="1" name="artedol_anthropologicalstudies">
+      <ObjectId>73</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="35" parent="1" name="artedol_general">
+      <ObjectId>70</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="36" parent="1" name="artedol_newsletters">
+      <ObjectId>68</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="37" parent="1" name="artedol_spanishheaven">
+      <ObjectId>72</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="38" parent="1" name="artedol_sql60285_1">
+      <ObjectId>67</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="39" parent="1" name="artedol_textil">
+      <ObjectId>71</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="40" parent="1" name="astbitco_top">
+      <ObjectId>53</ObjectId>
+    </database>
+    <database id="41" parent="1" name="bargouth_weaal">
+      <ObjectId>111</ObjectId>
+    </database>
+    <database id="42" parent="1" name="bb_agnes">
+      <ObjectId>23</ObjectId>
+    </database>
+    <database id="43" parent="1" name="bb_boatclub">
+      <ObjectId>24</ObjectId>
+    </database>
+    <database id="44" parent="1" name="bb_brauny">
+      <ObjectId>26</ObjectId>
+    </database>
+    <database id="45" parent="1" name="bb_heartgarden">
+      <ObjectId>25</ObjectId>
+    </database>
+    <database id="46" parent="1" name="bb_meditation">
+      <ObjectId>27</ObjectId>
+    </database>
+    <database id="47" parent="1" name="bb_meditationmastery">
+      <ObjectId>28</ObjectId>
+    </database>
+    <database id="48" parent="1" name="bb_organicd">
+      <ObjectId>29</ObjectId>
+    </database>
+    <database id="49" parent="1" name="bb_purple">
+      <ObjectId>126</ObjectId>
+    </database>
+    <database id="50" parent="1" name="bb_safetstep">
+      <ObjectId>30</ObjectId>
+    </database>
+    <database id="51" parent="1" name="bb_sportrec">
+      <ObjectId>31</ObjectId>
+    </database>
+    <database id="52" parent="1" name="bb_test">
+      <ObjectId>93</ObjectId>
+    </database>
+    <database id="53" parent="1" name="bb_vitality">
+      <ObjectId>34</ObjectId>
+    </database>
+    <database id="54" parent="1" name="cdif">
+      <ObjectId>84</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="55" parent="1" name="cloudomr_bd">
+      <ObjectId>48</ObjectId>
+      <Collation>Modern_Spanish_CI_AS</Collation>
+    </database>
+    <database id="56" parent="1" name="dbdesenrole">
+      <ObjectId>55</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="57" parent="1" name="dbeboat">
+      <ObjectId>116</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="58" parent="1" name="dbeboat360">
+      <ObjectId>64</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="59" parent="1" name="dbeone">
+      <ObjectId>124</ObjectId>
+    </database>
+    <database id="60" parent="1" name="dbmeutruck">
+      <ObjectId>113</ObjectId>
+    </database>
+    <database id="61" parent="1" name="donspage_quotes">
+      <ObjectId>75</ObjectId>
+    </database>
+    <database id="62" parent="1" name="drocolsa_drocolsa">
+      <ObjectId>38</ObjectId>
+    </database>
+    <database id="63" parent="1" name="eniong">
+      <ObjectId>58</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="64" parent="1" name="fms">
+      <ObjectId>18</ObjectId>
+    </database>
+    <database id="65" parent="1" name="grupoalm_grupoelf">
+      <ObjectId>57</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="66" parent="1" name="grupoalm_mayavati">
+      <ObjectId>97</ObjectId>
+    </database>
+    <database id="67" parent="1" name="hp_henceprovedapp">
+      <ObjectId>100</ObjectId>
+    </database>
+    <database id="68" parent="1" name="hp_henceprovedapp_dev">
+      <ObjectId>131</ObjectId>
+    </database>
+    <database id="69" parent="1" name="jomarcre_engage">
+      <ObjectId>82</ObjectId>
+    </database>
+    <database id="70" parent="1" name="jomarcre_engage_2">
+      <ObjectId>134</ObjectId>
+      <Collation>French_CI_AS</Collation>
+    </database>
+    <database id="71" parent="1" name="jomarcre_identity">
+      <ObjectId>16</ObjectId>
+      <Collation>French_CI_AS</Collation>
+    </database>
+    <database id="72" parent="1" name="jurekpon_dev">
+      <ObjectId>41</ObjectId>
+    </database>
+    <database id="73" parent="1" name="jurekpon_prod">
+      <ObjectId>39</ObjectId>
+    </database>
+    <database id="74" parent="1" name="kartusem_LicenseService">
+      <ObjectId>49</ObjectId>
+    </database>
+    <database id="75" parent="1" name="kartusem_NED">
+      <ObjectId>117</ObjectId>
+    </database>
+    <database id="76" parent="1" name="keficoza_">
+      <ObjectId>109</ObjectId>
+    </database>
+    <database id="77" parent="1" name="keficoza_crime">
+      <ObjectId>128</ObjectId>
+    </database>
+    <database id="78" parent="1" name="keficoza_crimed">
+      <ObjectId>138</ObjectId>
+    </database>
+    <database id="79" parent="1" name="keficoza_crimedb">
+      <ObjectId>21</ObjectId>
+    </database>
+    <database id="80" parent="1" name="luatleva_itssr">
+      <ObjectId>132</ObjectId>
+    </database>
+    <database id="81" parent="1" name="luatleva_portal">
+      <ObjectId>46</ObjectId>
+    </database>
+    <database id="82" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="83" parent="1" name="mmenterp_DBWithShohag">
+      <ObjectId>13</ObjectId>
+    </database>
+    <database id="84" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="85" parent="1" name="moussa20_elghad">
+      <ObjectId>33</ObjectId>
+      <Collation>Arabic_CI_AS</Collation>
+    </database>
+    <database id="86" parent="1" name="moussa20_sknews">
+      <ObjectId>77</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="87" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="88" parent="1" name="mybookmarks">
+      <ObjectId>51</ObjectId>
+    </database>
+    <database id="89" parent="1" name="netengin_">
+      <ObjectId>105</ObjectId>
+    </database>
+    <database id="90" parent="1" name="netengine">
+      <ObjectId>83</ObjectId>
+    </database>
+    <database id="91" parent="1" name="nexthomedb">
+      <ObjectId>32</ObjectId>
+    </database>
+    <database id="92" parent="1" name="pecemult_HybridWebDBase">
+      <ObjectId>79</ObjectId>
+    </database>
+    <database id="93" parent="1" name="pecemult_Online_Shopping">
+      <ObjectId>114</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="94" parent="1" name="plaskinc_myplaskin">
+      <ObjectId>92</ObjectId>
+    </database>
+    <database id="95" parent="1" name="plaskinc_plaskin">
+      <ObjectId>22</ObjectId>
+    </database>
+    <database id="96" parent="1" name="questoes">
+      <ObjectId>37</ObjectId>
+    </database>
+    <database id="97" parent="1" name="questoes2">
+      <ObjectId>47</ObjectId>
+    </database>
+    <database id="98" parent="1" name="resmaster2004">
+      <ObjectId>115</ObjectId>
+    </database>
+    <database id="99" parent="1" name="rfmarket_carepharmacydb">
+      <ObjectId>86</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="100" parent="1" name="saudihom_SaudiHomes">
+      <ObjectId>43</ObjectId>
+    </database>
+    <database id="101" parent="1" name="sl2381597_">
+      <ObjectId>91</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="102" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="103" parent="1" name="theflamme_deviftcc">
+      <ObjectId>65</ObjectId>
+    </database>
+    <database id="104" parent="1" name="theflamme_iftcc">
+      <ObjectId>62</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="105" parent="1" name="theflamme_iftcc_nop">
+      <ObjectId>103</ObjectId>
+    </database>
+    <database id="106" parent="1" name="theflamme_iftcc_nopreal">
+      <ObjectId>35</ObjectId>
+    </database>
+    <database id="107" parent="1" name="trade">
+      <ObjectId>36</ObjectId>
+    </database>
+    <database id="108" parent="1" name="ts">
+      <ObjectId>40</ObjectId>
+    </database>
+    <database id="109" parent="1" name="vfm">
+      <ObjectId>98</ObjectId>
+    </database>
+    <database id="110" parent="1" name="viplogic_">
+      <ObjectId>50</ObjectId>
+    </database>
+    <database id="111" parent="1" name="websitei_btwindow">
+      <ObjectId>19</ObjectId>
+    </database>
+    <database id="112" parent="1" name="websitei_cbmcdirectory">
+      <ObjectId>125</ObjectId>
+    </database>
+    <database id="113" parent="1" name="websitei_cbmcr">
+      <ObjectId>96</ObjectId>
+    </database>
+    <database id="114" parent="1" name="websitei_cob">
+      <ObjectId>108</ObjectId>
+    </database>
+    <database id="115" parent="1" name="websitei_gah">
+      <ObjectId>136</ObjectId>
+    </database>
+    <database id="116" parent="1" name="websitei_gccmd">
+      <ObjectId>102</ObjectId>
+    </database>
+    <database id="117" parent="1" name="websitei_getomni">
+      <ObjectId>118</ObjectId>
+    </database>
+    <database id="118" parent="1" name="websitei_hanslocal">
+      <ObjectId>121</ObjectId>
+    </database>
+    <database id="119" parent="1" name="websitei_hanslocal2">
+      <ObjectId>122</ObjectId>
+    </database>
+    <database id="120" parent="1" name="websitei_hwagae">
+      <ObjectId>112</ObjectId>
+    </database>
+    <database id="121" parent="1" name="websitei_hwangmeat">
+      <ObjectId>81</ObjectId>
+    </database>
+    <database id="122" parent="1" name="websitei_kjjw">
+      <ObjectId>101</ObjectId>
+    </database>
+    <database id="123" parent="1" name="websitei_lbk">
+      <ObjectId>106</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="124" parent="1" name="websitei_mhans">
+      <ObjectId>119</ObjectId>
+    </database>
+    <database id="125" parent="1" name="websitei_minchiro">
+      <ObjectId>135</ObjectId>
+    </database>
+    <database id="126" parent="1" name="websitei_proitllc">
+      <ObjectId>76</ObjectId>
+    </database>
+    <database id="127" parent="1" name="websitei_smartb">
+      <ObjectId>95</ObjectId>
+    </database>
+    <database id="128" parent="1" name="websitei_ssfa">
+      <ObjectId>5</ObjectId>
+    </database>
+    <database id="129" parent="1" name="websitei_wi">
+      <ObjectId>44</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="130" parent="1" name="websitei_wwbus">
+      <ObjectId>11</ObjectId>
+    </database>
+    <schema id="131" parent="6" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="132" parent="6" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="133" parent="6" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="134" parent="6" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="135" parent="6" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="136" parent="6" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="137" parent="6" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="138" parent="6" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="139" parent="6" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="140" parent="6" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="141" parent="6" name="dbo">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="142" parent="6" name="dbo_devdesk">
+      <ObjectId>6</ObjectId>
+    </schema>
+    <schema id="143" parent="6" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="144" parent="6" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <schema id="145" parent="6" name="viplAdmin">
+      <ObjectId>5</ObjectId>
+      <IntrospectionTimestamp>2020-05-18.10:17:13.220</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+  </database-model>
+</dataSource>

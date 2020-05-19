@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3552a43-8cde-40e3-81e7-4026dbc70cfb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c0KVnqjc33mMJAWHRj5Meqis3E" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver&#10;mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
+    <property name="jdk.selected.JAVA_MODULE" value="12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../MyHome" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My\Workspaces\Java\EE\Spring\Boot\Conference\conference-web\src\main\java\com\viplogics\conference\api" />
+      <recent name="C:\My\Workspaces\Java\EE\Spring\Boot\Conference\conference-web\src\main\java\com\viplogics\conference\repositories" />
+      <recent name="C:\My\Workspaces\Java\EE\Spring\Boot\Conference\conference-web\src\main\java\com\viplogics\conference\models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\My\Workspaces\Java\EE\Spring\Boot\Conference\conference-web\src\test\data" />
+      <recent name="C:\My\Workspaces\Java\EE\Spring\Boot\Conference\conference-web\src\main\resources\db\migration" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="api/v1/sessions/2" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="api/v1/sessions" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ConferenceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="conference-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.viplogics.conference.ConferenceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3552a43-8cde-40e3-81e7-4026dbc70cfb" name="Default Changelist" comment="" />
+      <created>1589660096925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589660096925</updated>
+      <workItem from="1589660100104" duration="50000" />
+      <workItem from="1589660281075" duration="720000" />
+      <workItem from="1589667519121" duration="12877000" />
+      <workItem from="1589752831599" duration="7251000" />
+      <workItem from="1589836051178" duration="3155000" />
+      <workItem from="1589842493647" duration="755000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="859" y="400" width="478" height="239" key="#Assign_Data_Sources" timestamp="1589688247280">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="859" y="400" width="478" height="239" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1589688247280" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589837036762">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589837036762" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1589840631607">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589840631607" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1589764058868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589764058868" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1589764058868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589764058868" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1589764058868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589764058868" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1589764058868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589764058868" />
+    <state width="1877" height="279" key="GridCell.Tab.1.bottom" timestamp="1589764058868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589764058868" />
+    <state width="1877" height="279" key="GridCell.Tab.1.center" timestamp="1589764058868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589764058868" />
+    <state width="1877" height="279" key="GridCell.Tab.1.left" timestamp="1589764058868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589764058868" />
+    <state width="1877" height="279" key="GridCell.Tab.1.right" timestamp="1589764058868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589764058868" />
+    <state x="540" y="254" key="IDE.errors.dialog" timestamp="1589660768130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589660768130" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1589660698178">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589660698178" />
+    <state x="832" y="367" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1589836668530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="832" y="367" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1920.1040@0.0.1920.1040" timestamp="1589836668530" />
+    <state x="814" y="396" width="311" height="252" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1589673760115">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="814" y="396" width="311" height="252" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040@0.0.1920.1040" timestamp="1589673760115" />
+    <state x="751" y="338" width="418" height="356" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1589687596145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="751" y="338" width="418" height="356" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589687596145" />
+    <state x="630" y="224" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1589671636676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="630" y="224" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1589671636676" />
+    <state x="668" y="128" width="583" height="783" key="find.popup" timestamp="1589755171404">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="128" width="583" height="783" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589755171404" />
+    <state x="342" y="202" key="new project wizard" timestamp="1589846687037">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="202" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1589846687037" />
+  </component>
+</project>
