@@ -1,3 +1,11 @@
+/*
+ * For easier debugging in development mode, you can import the following file
+ * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
+ *
+ * This import should be commented out in production mode because it will have a negative impact
+ * on performance if an error is thrown.
+ */
+import 'zone.js/dist/zone-error'; // Included with Angular CLI.
 import { iEnvironment } from '@environment/type';
 import { IConfiguration } from '@app/configuration/type';
 import { environment as CommonSettings } from '@environment/common';
@@ -5,8 +13,8 @@ import { environment as CommonSettings } from '@environment/common';
 const ZaikaAnalyticsApi: IConfiguration = {
   name: 'IdnycAnalytics',
   setting: [
-    { key: 'AnalyticsApi', value: 'TBD' },
-    { key: 'AnalyticsApiToken', value: 'TBD' }
+    { key: 'AnalyticsApi', value: '' },
+    { key: 'AnalyticsApiToken', value: '' }
   ]
 };
 const ZaikaVerifyApi: IConfiguration = {
@@ -14,7 +22,7 @@ const ZaikaVerifyApi: IConfiguration = {
   setting: [
     {
       key: 'VerifyApi',
-      value: 'TBD'
+      value: 'https://msdwva-hramip01.csc.nycnet:2021/IdnycGateway/Card/VerifyIdentity'
     }
   ]
 };
@@ -23,16 +31,16 @@ const GoogleReCaptchaKey: IConfiguration = {
   setting: [
     {
       key: 'GoogleReCaptchaKey',
-      value: 'TBD'
+      value: '6Lc99cMUAAAAACTmGNFFynC_eZiho05cSQv-_Jpx'
     }
   ]
 };
 export const environment: iEnvironment = {
-  name: 'PRODUCTION',
+  name: 'DEVELOPMENT',
   commonSettings: CommonSettings,
-  production: true,
+  production: false,
   stage: false,
   test: false,
-  development: false,
+  development: true,
   settings: [ZaikaVerifyApi, ZaikaAnalyticsApi, GoogleReCaptchaKey]
 };

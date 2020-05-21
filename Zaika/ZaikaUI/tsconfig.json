@@ -19,5 +19,16 @@
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
+  },
+  "paths": {
+    "@environment": [ "environments/environment.ts" ],
+    "@environment/type": [ "environments/ienvironment.ts" ],
+    "@environment/provider": [ "environments/environment.provider.ts" ],
+    "@environment/common": [ "environments/environment.defaults.ts" ],
+    "@environment/constants": [ "environments/environment.constants.ts" ],
+    "@app": [ "app/app.module.ts" ],
+    "@app/common": [ "app/modules/common.module.ts" ],
+    "@app/routing": [ "app/app-routing.module.ts" ],
+    "@app/configuration/type": [ "app/configuration/iconfiguration.ts" ]
   }
 }
