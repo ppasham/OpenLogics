@@ -1,18 +1,33 @@
+import { CUSTOM_ELEMENTS_SCHEMA , NgModule } from '@angular/core';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { AppSecurityModule } from './app-security.module';
+import { SharedModule } from './app-shared.module';
+import { UiMaterialFlexModule } from './app-ui.module';
 
+import { AppComponent } from './Home/app.component';
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    UiMaterialFlexModule,
+    ReactiveFormsModule,
+    FormsModule,
+    FlexLayoutModule,
+    AppSecurityModule,
+    SharedModule
+
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }

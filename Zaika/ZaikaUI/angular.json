@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -160,7 +161,6 @@
             "production": {
               "browserTarget": "zaika-ui:build:production"
             },
-
             "stage": {
               "browserTarget": "zaika-ui:build:stage"
             },
@@ -190,6 +190,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -221,6 +222,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "zaika-ui"
 }

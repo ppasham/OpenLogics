@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-
+import { RouterModule, Routes } from '@angular/router';
+import { AppSecurityModule } from './app-security.module';
 
 const routes: Routes = [];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [AppSecurityModule, RouterModule.forRoot(routes)],
+  exports: [AppSecurityModule, RouterModule]
 })
 export class AppRoutingModule { }
