@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppSecurityModule } from './app-security.module';
 
 const routes: Routes = [
-  {path: 'signin', loadChildren: './app-security.module#AppSecurityModule'},
-  {path: '**', redirectTo: '/'}
+  // {path: 'signin', loadChildren: './app-security.module#AppSecurityModule'},
+  // {path: '**', redirectTo: '/'}
 ];
 
 @NgModule({

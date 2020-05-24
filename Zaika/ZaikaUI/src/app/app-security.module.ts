@@ -13,7 +13,7 @@ import { SignOutComponent } from './Security/sign-out/sign-out.component';
 import { SignUpComponent } from './Security/sign-up/sign-up.component';
 
 const routes: Routes = [
-    { path: '**', redirectTo: 'signin' },
+    { path: '', pathMatch: 'full', redirectTo: 'signin' },
     { path: 'signin', component: SignInComponent }, // canActivate: [AuthGuard],
     { path: 'signup', component: SignUpComponent },
     { path: 'signout', component: SignOutComponent }
