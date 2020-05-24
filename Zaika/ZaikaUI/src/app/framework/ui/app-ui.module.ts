@@ -3,7 +3,7 @@ import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './design/material/material.module';
-import { LayoutModule } from './layout/Flex/layout.module';
+import { FlxLayoutModule } from './layout/Flex/layout.module';
 
 @NgModule({
   imports: [
@@ -11,13 +11,13 @@ import { LayoutModule } from './layout/Flex/layout.module';
      BrowserAnimationsModule,
      FormsModule, ReactiveFormsModule,
      MaterialModule,
-     LayoutModule
+     FlxLayoutModule
   ],
   exports: [
     BrowserAnimationsModule,
     FormsModule, ReactiveFormsModule,
     MaterialModule,
-    LayoutModule
+    FlxLayoutModule
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]

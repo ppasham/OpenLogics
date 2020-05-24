@@ -11,4 +11,4 @@ import { FlexLayoutModule } from '@angular/flex-layout';
   exports: [FlexLayoutModule],
   providers: []
 })
-export class LayoutModule { }
+export class FlxLayoutModule { }
