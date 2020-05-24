@@ -1,4 +1,5 @@
 {
+  "extends": "tslint:recommended",
   "rules": {
     "no-unnecessary-class": [
       true,
@@ -12,17 +13,16 @@
     ],
     "member-ordering": [
       true,
+      {
+      "order": [
       "public-before-private",
       "static-before-instance",
       "variables-before-functions"
+      ]
+    }
     ],
     "prefer-readonly": true,
-    "adjacent-overload-signatures": [
-      true,
-      {
-        "ignore-accessors": true
-      }
-    ],
+    "adjacent-overload-signatures": [true,{"ignore-accessors": true}],
     "unified-signatures": true,
     "prefer-function-over-method": [
       true,
@@ -190,13 +190,15 @@
       }
     ],
     "strict-boolean-expressions": [
-      true,
-      "allow-undefined-union",
-      "allow-string",
-      "allow-enum",
-      "allow-number",
-      "allow-mix",
-      "allow-rhs"
+      true,{
+        "options":[
+          "allow-undefined-union",
+          "allow-string",
+          "allow-enum",
+          "allow-number",
+          "allow-mix",
+          "allow-rhs"]
+      }
     ],
     "prefer-while": true,
     "prefer-for-of": true,

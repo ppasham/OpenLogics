@@ -1,14 +1,14 @@
-import { CUSTOM_ELEMENTS_SCHEMA , NgModule } from '@angular/core';
-import { FlexLayoutModule } from '@angular/flex-layout';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+// @angular
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+// @appFramework
 import { AppRoutingModule } from './app-routing.module';
 import { AppSecurityModule } from './app-security.module';
 import { SharedModule } from './app-shared.module';
-import { UiMaterialFlexModule } from './app-ui.module';
+import { AppUserInterfaceModule } from './framework/ui/app-ui.module';
 
+// @appComponents
 import { AppComponent } from './Home/app.component';
 @NgModule({
   declarations: [
@@ -17,17 +17,11 @@ import { AppComponent } from './Home/app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    UiMaterialFlexModule,
-    ReactiveFormsModule,
-    FormsModule,
-    FlexLayoutModule,
-    AppSecurityModule,
-    SharedModule
-
+    SharedModule,
+    AppUserInterfaceModule,
+    AppSecurityModule
   ],
   providers: [],
-  bootstrap: [AppComponent],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

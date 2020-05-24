@@ -183,4 +183,4 @@ Desktop.ini
 /.nb-gradle/
 build/
 # End of https://www.gitignore.io/api/git,java,maven,java-web,visualstudiocode,openframeworks+visualstudio
-Zaika/ZaikaUI/tslint-OutOfBox.json
+*-OutOfBox.json

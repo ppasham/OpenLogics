@@ -1,6 +1,8 @@
+// @angular
 import { APP_BASE_HREF, CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
+// @appHelpers
 import { AssetsPipe } from './framework/pipes/resources.pipe';
 
 @NgModule({

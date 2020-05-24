@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatButtonModule } from '@angular/material/button';
@@ -36,7 +37,8 @@ import { MatTooltipModule } from '@angular/material/tooltip';
      MatChipsModule,
      MatTooltipModule,
      MatTableModule,
-     MatPaginatorModule
+     MatPaginatorModule,
+     FlexLayoutModule
   ],
   exports: [
      MatButtonModule,
@@ -54,10 +56,11 @@ import { MatTooltipModule } from '@angular/material/tooltip';
      MatChipsModule,
      MatTooltipModule,
      MatTableModule,
-     MatPaginatorModule
+     MatPaginatorModule,
+     FlexLayoutModule
   ],
   providers: [
      MatDatepickerModule
   ]
 })
-export class UiMaterialFlexModule { }
+export class MaterialModule { }
