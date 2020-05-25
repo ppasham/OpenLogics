@@ -5,20 +5,19 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 
 // @appFramework
-import { AppUserInterfaceModule } from './framework/ui/app-ui.module';
+import { AppUserInterfaceModule } from '../framework/ui/app-ui.module';
 
 // @moduleComponents
-import { SignInComponent } from './Security/sign-in/sign-in.component';
-import { SignOutComponent } from './Security/sign-out/sign-out.component';
-import { SignUpComponent } from './Security/sign-up/sign-up.component';
+import { SignInComponent } from './sign-in/sign-in.component';
+import { SignOutComponent } from './sign-out/sign-out.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 const routes: Routes = [
-    { path: '', pathMatch: 'full', redirectTo: 'signin' },
+    // { path: '', pathMatch: 'full', redirectTo: 'signin' },
     { path: 'signin', component: SignInComponent }, // canActivate: [AuthGuard],
     { path: 'signup', component: SignUpComponent },
     { path: 'signout', component: SignOutComponent }
-  ]
-;
+  ];
 
 @NgModule({
   declarations: [

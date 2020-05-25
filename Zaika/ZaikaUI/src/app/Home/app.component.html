@@ -1,10 +1,19 @@
 <!-- Toolbar -->
 <mat-toolbar color="primary" class="app-header">
-  <div class="viplogix" role="toolbar">Zaika</div>
+  <div class="viplogix" role="toolbar">
+    <a href="/" class="viplogix">
+      <img
+        alt="Zaika"
+        width="75"
+        height="45"
+        src="assets/images/Zaika_white.png"
+      />
+    </a>
+  </div>
   <span class="nav-tool-items" role="menu">
-    <a mat-button routerLink="signin" routerLinkActive="active" >Log In</a>
-    <a mat-button mat-raised-button routerLink="signup" routerLinkActive="active">Register</a>
-    <a mat-button mat-raised-button routerLink="signout" routerLinkActive="active">Log Out</a>
+    <a mat-button routerLink="signin" routerLinkActive="active">Log In</a>
+    <a mat-button routerLink="signup" routerLinkActive="active">Join Us</a>
+    <!-- <a mat-button mat-raised-button routerLink="signout" routerLinkActive="active">Log Out</a> -->
   </span>
 </mat-toolbar>
 <router-outlet></router-outlet>

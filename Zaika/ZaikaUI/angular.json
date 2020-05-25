@@ -24,8 +24,16 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              {
+                "glob": "**/*", // copy everything
+                "input": "src/assets/images",
+                "output": "/assets/images"
+              },
+              {
+                "glob": "favicon.ico", // copy only favicon.ico
+                "input": "src/",
+                "output": "/" // copy to root directory
+              }
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",

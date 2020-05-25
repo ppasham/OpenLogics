@@ -1,5 +1,5 @@
-import { Pipe, PipeTransform, Inject } from '@angular/core';
 import { APP_BASE_HREF } from '@angular/common';
+import { Inject, Pipe, PipeTransform } from '@angular/core';
 @Pipe({
     name: 'assetspipe'
   })

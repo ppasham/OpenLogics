@@ -8,16 +8,14 @@ import { FlxLayoutModule } from './layout/Flex/layout.module';
 @NgModule({
   imports: [
      CommonModule,
-     BrowserAnimationsModule,
      FormsModule, ReactiveFormsModule,
      MaterialModule,
      FlxLayoutModule
   ],
   exports: [
-    BrowserAnimationsModule,
-    FormsModule, ReactiveFormsModule,
-    MaterialModule,
-    FlxLayoutModule
+       FormsModule, ReactiveFormsModule,
+       MaterialModule,
+       FlxLayoutModule
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
