@@ -1,5 +1,5 @@
 // @angular
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -10,11 +10,13 @@ import { AppUserInterfaceModule } from './framework/ui/app-ui.module';
 import { AppSecurityModule } from './Security/app-security.module';
 
 // @appComponents
-import { AppComponent } from './Home/app.component';
+import { DefaultComponent } from './Home/default/default.component';
+import { HomeComponent } from './Home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    HomeComponent,
+    DefaultComponent
   ],
   imports: [
     BrowserModule,
@@ -25,6 +27,7 @@ import { AppComponent } from './Home/app.component';
     AppSecurityModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [HomeComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }

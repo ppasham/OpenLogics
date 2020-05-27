@@ -13,11 +13,15 @@ import { SignOutComponent } from './sign-out/sign-out.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 
 const routes: Routes = [
-    // { path: '', pathMatch: 'full', redirectTo: 'signin' },
-    { path: 'signin', component: SignInComponent }, // canActivate: [AuthGuard],
-    { path: 'signup', component: SignUpComponent },
-    { path: 'signout', component: SignOutComponent }
-  ];
+    {
+      path: 'auth',
+      children: [
+      { path: 'checkin', pathMatch: 'full', component: SignInComponent },
+      { path: 'joinus', pathMatch: 'full', component: SignUpComponent },
+      { path: 'signoff', pathMatch: 'full', component: SignOutComponent }
+      ]
+    }
+];
 
 @NgModule({
   declarations: [
@@ -34,3 +38,4 @@ const routes: Routes = [
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppSecurityModule { }
+// TODO: Fix page repeats page in url On refresh - Stack Overflow
