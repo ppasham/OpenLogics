@@ -1,8 +1,8 @@
 # Created by https://www.gitignore.io/api/git,java,maven,java-web,visualstudiocode,openframeworks+visualstudio
 # Edit at https://www.gitignore.io/?templates=git,java,maven,java-web,visualstudiocode,openframeworks+visualstudio
 
-!**/src/main/**
-!**/src/test/**
+# Maven
+
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
@@ -44,10 +44,6 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-### Java-Web ###
-## ignoring target file
-target/
-
 ### Maven ###
 pom.xml.tag
 pom.xml.releaseBackup
@@ -56,11 +52,14 @@ pom.xml.next
 release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
-mvnw*
-.mvn/
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 .flattened-pom.xml
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+### Compiled distributable ###
+target/
 
 ### OpenFrameworks+VisualStudio ###
 # ignore generated binaries
