@@ -22,7 +22,7 @@ body {
   right: 0;
   z-index: 2;
   box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
-    0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+  0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
 }
 .viplogix {
   text-decoration: none;
@@ -30,10 +30,10 @@ body {
 }
 .box {
   position: relative;
-  top: 0;
+  top: 90px;
   opacity: 1;
   float: left;
-  padding: 60px 50px 40px 50px;
+  padding: 20px 50px 40px 50px;
   width: 100%;
   background: #fff;
   border-radius: 10px;
