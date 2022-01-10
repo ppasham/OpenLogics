@@ -1,0 +1,6 @@
+npm i
+npm i node-gyp-build
+npm i nx -g
+npm i @nrwl/angular
+npm i @nrwl/cypress
+npm i @nrwl/jest
