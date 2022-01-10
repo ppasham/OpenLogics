@@ -1,0 +1,21 @@
+//required file
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "rootDir": ".",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "target": "ES2015",
+        "module": "ESNext",
+        "lib": ["ES2015", "DOM"],
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "baseUrl": ".",
+        "paths": {}
+    },
+    "exclude": ["node_modules", "tmp"]
+}
