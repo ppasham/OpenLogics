@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "projects": {
+    "ssp": {
+      "projectType": "application",
+      "root": "apps/ssp",
+      "sourceRoot": "apps/ssp/src",
+      "prefix": "bastion-self-serve",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "dist/apps/ssp",
+            "index": "apps/ssp/src/index.html",
+            "main": "apps/ssp/src/main.ts",
+            "polyfills": "apps/ssp/src/polyfills.ts",
+            "tsConfig": "apps/ssp/tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
+            "assets": ["apps/ssp/src/favicon.ico", "apps/ssp/src/assets"],
+            "styles": ["apps/ssp/src/styles.scss"],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "fileReplacements": [
+                {
+                  "replace": "apps/ssp/src/environments/environment.ts",
+                  "with": "apps/ssp/src/environments/environment.prod.ts"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "browserTarget": "ssp:build:production"
+            },
+            "development": {
+              "browserTarget": "ssp:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "ssp:build"
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "apps/ssp/src/**/*.ts",
+              "apps/ssp/src/**/*.html"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/ssp"],
+          "options": {
+            "jestConfig": "apps/ssp/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "ssp-e2e": {
+      "root": "apps/ssp-e2e",
+      "sourceRoot": "apps/ssp-e2e/src",
+      "projectType": "application",
+      "architect": {
+        "e2e": {
+          "builder": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/ssp-e2e/cypress.json",
+            "devServerTarget": "ssp:serve:development"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "ssp:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["apps/ssp-e2e/**/*.{js,ts}"]
+          }
+        }
+      },
+      "tags": [],
+      "implicitDependencies": ["ssp"]
+    }
+  }
+}
