@@ -183,3 +183,6 @@ Desktop.ini
 build/
 # End of https://www.gitignore.io/api/git,java,maven,java-web,visualstudiocode,openframeworks+visualstudio
 *-OutOfBox.json
+Cloud/.angulardoc.json
+
+

@@ -39,7 +39,7 @@ testem.log
 Thumbs.db
 
 .angular
-
+/.angulardoc.json
 # Created by https://www.gitignore.io/api/git,java,maven,java-web,visualstudiocode,openframeworks+visualstudio
 # Edit at https://www.gitignore.io/?templates=git,java,maven,java-web,visualstudiocode,openframeworks+visualstudio
 
@@ -53,7 +53,7 @@ Thumbs.db
 
 # Created by git when using merge tools for conflicts
 *.BACKUP.*
-*.BASE.*
+#*.BASE.*
 *.LOCAL.*
 *.REMOTE.*
 *_BACKUP_*.txt
