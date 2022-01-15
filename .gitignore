@@ -9,6 +9,10 @@
 # $ git config --global mergetool.keepBackup false
 *.orig
 
+#Angular
+/.angulardoc.json
+/package-lock.json
+
 # Created by git when using merge tools for conflicts
 *.BACKUP.*
 #*.BASE.*
@@ -183,6 +187,4 @@ Desktop.ini
 build/
 # End of https://www.gitignore.io/api/git,java,maven,java-web,visualstudiocode,openframeworks+visualstudio
 *-OutOfBox.json
-Cloud/.angulardoc.json
-
 
