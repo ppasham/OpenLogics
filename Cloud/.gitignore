@@ -5,6 +5,10 @@
 /tmp
 /out-tsc
 
+#angular
+/.angulardoc.json
+/package-lock.json
+
 # dependencies
 /node_modules
 
