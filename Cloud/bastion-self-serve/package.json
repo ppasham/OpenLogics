@@ -8,7 +8,7 @@
         "start": "nx serve",
         "build": "nx build",
         "test": "nx test",
-        "generate-doc": "npx compodoc -p tsconfig.json",
+        "generate-doc": "npx compodoc -p ./apps/ssp/tsconfig.json",
         "start-devServer": "json-server --watch ./data/default-data.json"
     },
     "private": true,
