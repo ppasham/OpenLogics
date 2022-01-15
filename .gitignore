@@ -10,8 +10,8 @@
 *.orig
 
 #Angular
-/.angulardoc.json
-/package-lock.json
+.angulardoc.json
+package-lock.json
 
 # Created by git when using merge tools for conflicts
 *.BACKUP.*
@@ -187,4 +187,3 @@ Desktop.ini
 build/
 # End of https://www.gitignore.io/api/git,java,maven,java-web,visualstudiocode,openframeworks+visualstudio
 *-OutOfBox.json
-
